@@ -198,9 +198,13 @@ body {
 
 @media (max-width: 600px)
 {
-    /* .navbar{
+    .navbar{
         justify-content: space-between;
-    } */
+        left: 13px;
+    }
+    .navbar .navbar-left{
+        left: 3px;
+    }
     .navbar .navbar-right ul li {
         margin: 0 1px;
     }
@@ -208,7 +212,13 @@ body {
         font-size: 0.8rem;
     }
     .main-body .main-right img{
-        width: 200px;
-        height: 200px;
+        width: 270px;
+        height: 270px;
+    }
+    .main-body .main-left{
+        position: relative;
+        font-size: 1.5rem;
+        top: 80px;
+        line-height: 2.8rem;
     }
 }
