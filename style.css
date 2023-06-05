@@ -41,7 +41,7 @@ body {
 .navbar .navbar-right ul {
     /* position: absolute; */
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
 }
@@ -206,5 +206,9 @@ body {
     }
     .navbar .navbar-right ul a{
         font-size: 0.8rem;
+    }
+    .main-body .main-right img{
+        width: 200px;
+        height: 200px;
     }
 }
