@@ -212,8 +212,10 @@ body {
         font-size: 0.8rem;
     }
     .main-body .main-right img{
-        width: 270px;
-        height: 270px;
+        position: relative;
+        left: -8px;
+        width: 310px;
+        height: 310px;
     }
     .main-body .main-left{
         position: relative;
