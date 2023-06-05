@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="navbar-left" data-tilt><span>A</span>aditya Kumar</div>
+        <div class="navbar-right">
+            <ul>
+                <li class="home"><a href="#" class="home-button">Home</a></li>
+                <li class="skills"><a href="#" class="btn">Skills</a></li>
+                <li class="exp"><a href="#" class="btn">Experience</a></li>
+                <li class="pro"><a href="#" class="btn">Projects</a></li>
+                <li class="cnt"><a href="#" class="btn">Connect</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main-body">
+        <div class="main-left">
+
+            <div class="intro">
+                <span>Hi!</span> I'm Aaditya
+            </div>
+            <div>
+                <span id="element" class="typed"></span>
+            </div>
+
+            <div>
+                <button class="main-btn"><a href="">Connect</a></button>
+            </div>
+        </div>
+
+        <div class="main-right">
+            <img src="image/bg.png" alt="">
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".navbar-left"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer'],
+            typeSpeed: 70,
+
+        });
+    </script>
+</body>
+
+</html>
