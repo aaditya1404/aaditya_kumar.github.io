@@ -41,6 +41,7 @@ body {
 .navbar .navbar-right ul {
     /* position: absolute; */
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     list-style: none;
 }
@@ -197,7 +198,13 @@ body {
 
 @media (max-width: 600px)
 {
+    /* .navbar{
+        justify-content: space-between;
+    } */
     .navbar .navbar-right ul li {
-        margin: 0 10px;
+        margin: 0 1px;
+    }
+    .navbar .navbar-right ul a{
+        font-size: 0.8rem;
     }
 }
