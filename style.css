@@ -197,5 +197,7 @@ body {
 
 @media (max-width: 600px)
 {
-    
+    .navbar .navbar-right ul li {
+        margin: 0 10px;
+    }
 }
