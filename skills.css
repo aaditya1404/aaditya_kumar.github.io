@@ -1,0 +1,239 @@
+#skill-logo {
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'poppins';
+    line-height: 1;
+}
+
+#skill-logo .skills-logo {
+    font-weight: 700;
+}
+
+#skill-logo .skills-para {
+    font-size: 1rem;
+}
+
+.skill-img {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    margin: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-img .box {
+    margin: 1vw;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: rgb(231, 230, 230);
+    width: 20vw;
+    height: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.skill-img .html-grad::before {
+    content: 'HTML';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .html-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .css-grad::before {
+    content: 'CSS';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .css-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .js-grad::before {
+    content: 'Javascript';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .js-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .react-grad::before {
+    content: 'React.js';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .react-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .boots-grad::before {
+    content: 'Bootstrap';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .boots-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .tailwind-grad::before {
+    content: 'Tailwind';
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2.2vw;
+    color: black;
+    border-radius: 10px 10px;
+    font-family: 'poppins';
+    font-weight: 500;
+    position: absolute;
+    background: linear-gradient(#D7DDE8, #757F9A);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.skill-img .tailwind-grad:hover:before {
+    transform: translateY(0);
+}
+
+.skill-img .html-img {
+    width: 10vw;
+}
+
+.skill-img .css-img {
+    width: 7.4vw;
+}
+
+.skill-img .js-img {
+    width: 7.5vw;
+}
+
+.skill-img .tailwind-img {
+    width: 12.5vw;
+}
+
+.skill-img .boots-img {
+    width: 12vw;
+}
+
+.skill-img .react-img {
+    width: 11vw;
+}
+
+/* MEDIA-QURIES */
+
+@media (max-width: 600px)
+{
+    .skill-img .box{
+        width: 40vw;
+        height: 20vw;
+        margin: 2vw;
+    }
+    .skill-img .html-img {
+        width: 17vw;
+    }
+    
+    .skill-img .css-img {
+        width: 12vw;
+    }
+    
+    .skill-img .js-img {
+        width: 12vw;
+    }
+    
+    .skill-img .tailwind-img {
+        width: 17.5vw;
+    }
+    
+    .skill-img .boots-img {
+        width: 18vw;
+    }
+    
+    .skill-img .react-img {
+        width: 15vw;
+    }
+}

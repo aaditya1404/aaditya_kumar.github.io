@@ -2,25 +2,34 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLE-SHEETS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- GOOGLE-FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet">
+
     <title>Portfolio</title>
 </head>
 
 <body>
 
+    <!-- NAVBAR -->
     <header class="navbar">
         <div class="navbar-left" data-tilt><span>A</span>aditya Kumar</div>
         <div class="navbar-right">
             <ul>
                 <li class="home"><a href="#" class="home-button">Home</a></li>
-                <li class="skills"><a href="#" class="btn">Skills</a></li>
+                <li class="skills"><a href="#skill-logo" class="btn">Skills</a></li>
                 <li class="exp"><a href="#" class="btn">Experience</a></li>
                 <li class="pro"><a href="#" class="btn">Projects</a></li>
                 <li class="cnt"><a href="#" class="btn">Connect</a></li>
@@ -28,8 +37,9 @@
         </div>
     </header>
 
+    <!-- MAIN-BODY -->
     <section class="main-body">
-        <div class="main-left">
+        <div class="main-left" data-aos="fade-right">
 
             <div class="intro">
                 <span>Hi!</span> I'm Aaditya
@@ -48,6 +58,51 @@
         </div>
     </section>
 
+    <!-- SKILL:- -->
+    <section id="skill-logo" data-aos="fade-right">
+        <div class="skills-logo">
+            Skills.
+        </div>
+        <div class="skills-para">
+            What have I learned so far?
+        </div>
+    </section>
+    <section class="skill-img" data-aos="fade-right">
+        <div class="box html-grad" data-tilt>
+            <img src="image/html.png" alt="" class="html-img">
+        </div>
+        <div class="box css-grad" data-tilt>
+            <img src="image/css.png" alt="" class="css-img">
+        </div>
+        <div class="box js-grad" data-tilt>
+            <img src="image/javascript.png" alt="" class="js-img">
+
+        </div>
+        <div class="box tailwind-grad" data-tilt>
+            <img src="image/tailwind.png" alt="" class="tailwind-img">
+        </div>
+    </section>
+    <section class="skill-img" data-aos="fade-left">
+        <div class="box boots-grad" data-tilt>
+            <img src="image/Bootstrap.png" alt="" class="boots-img">
+        </div>
+        <div class="box react-grad" data-tilt>
+            <img src="image/Reaxt-icon.png" alt="" class="react-img">
+        </div>
+        <div class="box js-grad" data-tilt>
+            <img src="image/javascript.png" alt="" class="js-img">
+        </div>
+        <div class="box tailwind-grad" data-tilt>
+            <img src="image/tailwind.png" alt="" class="tailwind-img" `>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        Made with &nbsp;<span style="font-size:140%;color:red;">&hearts;</span>&nbsp; by Aadi.
+    </footer>
+
+    <!-- VANILLA-TILT.JS -->
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".navbar-left"), {
@@ -55,8 +110,9 @@
             speed: 400
         });
     </script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
+    <!-- TYPES.JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Frontend Developer'],
@@ -64,6 +120,12 @@
 
         });
     </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
