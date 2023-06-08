@@ -236,4 +236,22 @@
     .skill-img .react-img {
         width: 15vw;
     }
+    .skill-img .tailwind-grad::before {
+        font-size: 1rem;
+    }
+    .skill-img .boots-grad::before {
+        font-size: 1rem;
+    }
+    .skill-img .html-grad::before {
+        font-size: 1rem;
+    }
+    .skill-img .css-grad::before {
+        font-size: 1rem;
+    }
+    .skill-img .js-grad::before {
+        font-size: 1rem;
+    }
+    .skill-img .react-grad::before {
+        font-size: 1rem;
+    }
 }

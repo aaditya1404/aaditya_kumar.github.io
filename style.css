@@ -121,6 +121,7 @@ body {
 .main-body .main-right img {
     animation: img ease-in-out;
     animation-duration: 1s;
+    animation-play-state: running;
     width: 30vw;
     height: 30vw;
 }
@@ -220,6 +221,7 @@ body {
         position: relative;
         font-size: 1.5rem;
         top: 80px;
-        line-height: 2.8rem;
+        line-height: 3rem;
+        gap: 0;
     }
 }
