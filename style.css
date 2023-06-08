@@ -127,8 +127,8 @@ body {
 }
 
 .main-body .main-left {
-    /* animation: intro ease-in-out; */
-    /* animation-duration: 1s; */
+    animation: intro ease-in-out;
+    animation-duration: 1s;
     line-height: 2rem;
 }
 
@@ -195,6 +195,7 @@ body {
     .navbar {
         justify-content: space-between;
         /* left: 13px; */
+        height: 80px;
     }
 
     .navbar .navbar-left {
