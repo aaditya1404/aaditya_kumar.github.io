@@ -1,3 +1,5 @@
+/* SKILLS-LOGO */
+
 #skill-logo {
     width: 80%;
     margin: auto;
@@ -17,6 +19,8 @@
 #skill-logo .skills-para {
     font-size: 1rem;
 }
+
+/* SKILL-IMG */
 
 .skill-img {
     margin: auto;
@@ -206,51 +210,57 @@
 
 /* MEDIA-QURIES */
 
-@media (max-width: 600px)
-{
-    .skill-img .box{
+@media (max-width: 600px) {
+    .skill-img .box {
         width: 40vw;
         height: 20vw;
         margin: 2vw;
     }
+
     .skill-img .html-img {
         width: 17vw;
     }
-    
+
     .skill-img .css-img {
         width: 12vw;
     }
-    
+
     .skill-img .js-img {
         width: 12vw;
     }
-    
+
     .skill-img .tailwind-img {
         width: 17.5vw;
     }
-    
+
     .skill-img .boots-img {
         width: 18vw;
     }
-    
+
     .skill-img .react-img {
         width: 15vw;
     }
+
     .skill-img .tailwind-grad::before {
         font-size: 1rem;
     }
+
     .skill-img .boots-grad::before {
         font-size: 1rem;
     }
+
     .skill-img .html-grad::before {
         font-size: 1rem;
     }
+
     .skill-img .css-grad::before {
         font-size: 1rem;
     }
+
     .skill-img .js-grad::before {
         font-size: 1rem;
     }
+
     .skill-img .react-grad::before {
         font-size: 1rem;
     }
