@@ -189,6 +189,14 @@ body {
     }
 }
 
+.line{
+    background-color: black;
+    height: 0.11px;
+    width: 50%;
+    margin: auto;
+    visibility: hidden;
+}
+
 /* media-queries */
 
 @media (max-width: 600px) {
