@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="footer.css">
 
     <!-- GOOGLE-FONTS -->
@@ -21,6 +22,7 @@
     <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
     <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <title>Portfolio</title>
 </head>
@@ -35,7 +37,7 @@
                 <li class="home"><a href="#" class="home-button">Home</a></li>
                 <li class="skills"><a href="#skill-logo" class="btn">Skills</a></li>
                 <li class="exp"><a href="#" class="btn">Experience</a></li>
-                <li class="pro"><a href="#" class="btn">Projects</a></li>
+                <li class="pro"><a href="#project-heading" class="btn">Projects</a></li>
                 <li class="cnt"><a href="#" class="btn">Connect</a></li>
             </ul>
         </div>
@@ -43,7 +45,7 @@
 
     <!-- MAIN-BODY -->
     <section class="main-body">
-        <div class="main-left" data-aos="fade-in" >
+        <div class="main-left" data-aos="fade-in">
 
             <div class="intro">
                 <span>Hi!</span> I'm Aaditya
@@ -62,8 +64,22 @@
         </div>
     </section>
 
+    <div class="scroll-indicator">
+        <a href="#skill-logo">
 
-    <div class="line" data-aos="fade-right"></div>
+            <div class="scroll-box">
+                
+                <div class="scroll-circle">
+                    
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <!-- Line -->
+    <!-- <div class="line" data-aos="fade-right"></div> -->
+
     <!-- SKILL:- -->
     <section id="skill-logo">
         <div class="skills-logo" data-aos="fade-right">
@@ -106,6 +122,51 @@
         </div> -->
     </section>
 
+    <!-- PROJECTS:- -->
+    <section id="project-heading">
+        <div class="project-head" data-aos="fade-right">
+            Projects.
+        </div>
+        <div class="project-para">
+            What I created
+        </div>
+    </section>
+
+    <br>
+
+    <div class="project-body">
+
+
+        <div for="collapsible-head" class="body1 mg-bottom bg-white br">
+            <div class="port mg-right-10px">
+                Portfolio
+            </div>
+
+            <div class="project-icon">
+                <box-icon name='chevron-down' type='solid' animation='tada' flip='horizontal'></box-icon>
+            </div>
+
+        </div>
+
+        <div class="body1 mg-bottom bg-white">
+            <div class="calci mg-right-10px">
+                Calculator
+            </div>
+            <div class="project-icon">
+                <box-icon name='chevron-down' type='solid' animation='tada' flip='horizontal'></box-icon>
+            </div>
+        </div>
+
+        <div class="body1 bg-white br2">
+            <div class="game mg-right-10px">
+                Game
+            </div>
+            <div class="project-icon">
+                <box-icon name='chevron-down' type='solid' animation='tada' flip='horizontal'></box-icon>
+            </div>
+        </div>
+
+    </div>
     <br>
     <br>
     <!-- FOOTER -->
