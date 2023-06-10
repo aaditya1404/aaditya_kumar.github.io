@@ -37,6 +37,7 @@ body {
 }
 
 .navbar .navbar-right ul {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -258,7 +259,9 @@ body {
         left: 1rem;
     }
     .navbar .navbar-right{
-        width: 100%;
+        /* width: 100%; */
+        /* width: 98%; */
+        margin-left: 0.9rem;
     }
     .navbar .navbar-right ul li {
         margin: 0 1px;
